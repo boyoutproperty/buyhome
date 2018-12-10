@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.text-box{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/*  marketing */
+
+.marketing{
+    margin-bottom: 40px;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: 400;
+}
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+.img-box{
+    width: 140px; 
+    height: 140px;
+}
+
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #D7CCC8;
+    height: 200px;
+    padding-top: 3%;
+} 
+
+footer>section>img{
+    height: 20px;
+    width: 25px;
+}
+
+.box{
+    width: 100%;
+    background-color: #EFEBE9;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.top-img{
+    height: -webkit-fill-available;
+    background: url("../img/h2-slide-img-1.png") 50% no-repeat;
+}
+
+.top-text {
+    position: absolute;
+    left: 15%;
+    color: black;
+    top: 20%;
+}
+
+
+
