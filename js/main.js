@@ -22,9 +22,7 @@ jQuery(document).ready(function($) {
                     Имя: ${data[0].value}<br>
                     Фамилия: ${data[1].value}<br>
                     Телефон: ${data[2].value}
-                    
                     </span>`;
-                    debugger
                 Email.send({
                     Host : 'smtp.gmail.com',
                     Username : "buyhomeonline1@gmail.com",
@@ -34,8 +32,14 @@ jQuery(document).ready(function($) {
                     Subject : "Letter from site",
                     Body : body //any string data here (html also)
                 }).then(
-                    (message) => {debugger},
-                  (message) => {debugger}
+                    (message) =>{
+                        $(".sent").show();
+                        setTimeout(() => $('.sent').hide(), 5000);
+                    },
+                    (message) => {
+                        $(".failed").show();
+                        setTimeout(() => $('.failed').hide(), 5000);
+                    }
                 );
     
        

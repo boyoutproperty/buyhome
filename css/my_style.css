@@ -52,11 +52,13 @@ footer>section>img{
 }
 
 .top-img{
-    height: -webkit-fill-available;
+    height: 100vh;
     background: url("../img/h2-slide-img-1.png") 50% no-repeat;
 }
 
 .top-text {
+    padding: 0.5em;
+    background-color: rgba(255,255,255,0.75);
     position: absolute;
     left: 15%;
     color: black;
