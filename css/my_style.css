@@ -39,9 +39,24 @@ footer{
     padding-top: 3%;
 } 
 
-footer>section>img{
-    height: 20px;
-    width: 25px;
+.tel{
+    height: 35px;
+    width: 100%;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-fl{
+    height: 25px;
+    width: 30px;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+.tel-soc{
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .box{
@@ -51,19 +66,71 @@ footer>section>img{
     margin-bottom: 50px;
 }
 
+h1{font-family: 'Marck Script', cursive;}
+/* h1{font-family: 'Bad Script', cursive;} */
+
 .top-img{
     height: 100vh;
     background: url("../img/h2-slide-img-1.png") 50% no-repeat;
 }
 
-.top-text {
-    padding: 0.5em;
-    background-color: rgba(255,255,255,0.75);
+/* .top-text {
+    margin: -3.5em 1.5em;
     position: absolute;
     left: 15%;
     color: black;
     top: 20%;
+} */
+
+.top-text{
+    color: black;
 }
+.flex-center{
+    display: flex;
+    justify-content: center
+}
+
+.top-box{
+    width: 40%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
