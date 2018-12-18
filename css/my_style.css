@@ -66,7 +66,10 @@ footer{
     margin-bottom: 50px;
 }
 
-h1{font-family: 'Marck Script', cursive;}
+h1{
+    font-family: 'Marck Script', cursive;
+    font-size: 3rem;
+}
 /* h1{font-family: 'Bad Script', cursive;} */
 
 .top-img{
@@ -91,8 +94,8 @@ h1{font-family: 'Marck Script', cursive;}
 }
 
 .top-box{
-    width: 40%;
-
+    position: absolute;
+    margin-top: 30px;
 }
 
 
